@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online food delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="navi">
+        <div id="logo">
+            <img src="puk.jpg" alt="Error" width="100" height="100">
+        </div>
+        
+        <ul>
+            <li id="text"><a href="#">home</a></li>
+            <li id="text"><a href="#">About us</a></li>
+            <li id="text"><a href="#">Services</a></li>
+            <li id="text"><a href="#">Contact us</a></li>
+        </ul>
+         
+        </div>
+    </nav>
+    
+    <section id="home">
+        <h3 id="headi">You Hungry? You choosed right website</h3>
+        <p1>Hello customers, We have been serving since 1951.<br> 
+            Even the rocky bhai from kgf wasnot born. 
+            So you<br> can trust us and order the food.</p1><br>
+
+            <button id="btn">Click to order</button>
+    </section>
+
+
+
+
+
+    
+    
+</body>
+</html>
+
+
+
+
+//css code begains.
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navi{
+    display: flex;
+    align-items: center;
+    
+}
+#navi logo{
+    margin-right: 20px;
+}
+#navi ul{
+    display:flex ;
+}
+#navi ul li{
+    list-style: none;
+    font-size: 0.5cm;
+
+}
+#navi ul li a{
+    padding: 0.5cm 1cm ;
+    text-decoration: none;
+    color: white;
+}
+#navi{
+    background-color: rgb(27, 166, 212);
+    z-index: -1;
+    position: relative;
+    size: 20px;
+    
+    
+}
+#navi ul li a:hover{
+    background-color: red;
+    color: black;
+    opacity: 0.4;
+}
+/* end of navigation */
+
+ /* home part */
+ #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #home{
+    background-image: url('fodi.jpg') ;
+    height: 500px;
+    width: 100%;
+  
+    z-index: -1;
+
+ }
+ #headi{
+    color: azure;
+    text-align:center ;
+
+ }
