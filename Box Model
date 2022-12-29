@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box module</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+    <div class="container">
+    <h1 class="heading">Box 1</h1>
+    <p>Hello there. it is the first box</p>
+    </div>
+<div class="container">
+    <h1 class="heading">Box 2</h1>
+    <p>Hello there. it is the second box</p>
+    </div>
+<div class="container">
+    <h1 class="heading">Box 3</h1>
+    <p>Hello there. it is the third box</p>
+ </div>
+</div>
+</body>
+</html>
+
+//css code starts 
+
+*{
+    padding: 0;
+    margin: o;
+    
+}
+.container{
+    background-color: rgb(241, 171, 78);
+    border: 3px solid rgb(86, 10, 10);
+    padding: 10px;
+    padding-left: 40px;
+    margin: 20px;
+    border-radius: 30px;
+    width: 300px ;
+    
+     
+}
+.box{
+    display: flex;
+
+}
