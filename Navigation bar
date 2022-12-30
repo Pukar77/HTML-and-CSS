@@ -1,0 +1,57 @@
+//Note: Create a new file name as style.css and put all the css code in it..(Keep being kind and keep learning)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #241e2545;
+    border-radius: 15px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;  
+}
+.navbar ul li {
+    padding: 5px;
+    margin: 10px;  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #1c1d20;
+}
+.navbar ul li a:hover{
+    color: #f0f4c3a3; 
+    
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a</li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+</body>
+</html>
