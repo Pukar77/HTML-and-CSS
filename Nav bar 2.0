@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    header{
+        display: flex;
+        margin: 10px , 30px;
+        justify-content: flex-end;
+        background-color: antiquewhite;
+        border-radius: 40px;
+    }
+    nav{
+        display: flex; 
+    }
+    .ho{
+        display: flex;
+    }
+    .idd{
+        margin: 20px;
+        list-style: none;
+    }
+    .logo{
+        margin: 20px;
+        margin-right: 800px;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    a:hover{
+        color: black;
+        font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+ <header>
+<nav>
+  <h4 class="logo">Pukar Rimal</h4>
+    <ul class="ho">
+      <li class="idd"><a href="#">Home</a></li>
+      <li class="idd"><a href="#">About</a></li>
+      <li class="idd"><a href="#">Contact</a></li>
+    
+    </ul>
+  </nav>
+</header>   
+    
+</body>
+</html>
+
+
+  
