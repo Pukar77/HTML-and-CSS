@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  *{
+      margin: 0;
+    padding: 0;
+    
+}
+nav {
+    
+    padding: 10px;
+    margin-top: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(30, 4, 4);
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  body{
+    background-image:url("BACHELOR\ B.jpg") ;
+    background-size: contain;
+    height: 100%;
+  }
+  
+  .hlo{
+    height: 250px;
+    width: 300px;
+margin-top: 50px;
+margin-right: 50px;
+
+  }
+  .hi{
+    display: flex;
+    
+  }
+  .box1{
+    border: 2px solid red;
+    margin-top: 50px;
+  }
+  .hi1{
+    display: flex;
+  }
+  .hlo1{
+    height: 250px;
+    width: 250px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box2{
+    border: 2px solid red;
+    margin-top: 100px;
+  }
+  .hi2{
+    display: flex;
+  }
+  .hlo2{
+    height: 250px;
+    width: 350px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box3{
+    border: 2px solid red;
+    margin-top: 100px;
+  }
+  .hi3{
+    display: flex;
+  }
+  .hlo3{
+    height: 250px;
+    width: 350px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box4{
+    border: 2px solid red;
+    margin-top: 100px;
+  }
+  .hi4{
+    display: flex;
+  }
+  .hlo4{
+    height: 250px;
+    width: 350px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box5{
+    border: 2px solid red;
+    
+    margin-top: 100px;
+  }
+  .hi5{
+    display: flex;
+  }
+  .hlo5{
+    height: 250px;
+    width: 350px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box6{
+    border: 2px solid red;
+    
+    margin-top: 100px;
+  }
+  .hi6{
+    display: flex;
+  }
+  .hlo6{
+    height: 250px;
+    width: 400px;
+margin-top: 100px;
+margin-right: 50px;
+
+  }
+  .box7{
+    border: 2px solid red;
+    
+    margin-top: 100px;
+  }
+</style>
+<body>
+    
+        <nav>
+            <ul>
+              <li><a href="https://pukarwrites.blogspot.com/"target="_blank">Home</a></li>
+              <li><a href="https://www.nccs.edu.np/college"target="_blank">About</a></li>
+              <li><a href="https://www.nccs.edu.np/college"target="_blank">Services</a></li>
+              <li><a href="https://www.nccs.edu.np/college"target="_blank">Contact</a></li>
+              <li><a href="https://pukarwrites.blogspot.com/"target="_blank">Blogs</a></li>
+            </ul>
+          </nav>
+         <div class="hi">
+           <img src="vaidya.jpg" alt="description" class="hlo"> 
+           <div class="box1">
+            <h1>Vaidya's Sword</h1>
+            <br>
+            <p>This is the first product of Bachleor B. By using this sword you can get the body like bodybuilder without building your body as bodybuilder. You can find this product in gym.</p>
+
+           </div>
+         </div>
+          
+
+  <div class="hi1">
+    <img src="pandey.jpg" alt="Pandey ji" class="hlo1">
+    <div class="box2">
+      <h1>Pandey's Ring</h1>
+      <br>
+      <p>This is the second product of bachelor B. You just ignore the pose, we are trying to show you the ring that is in his middel finger. It is the ring like shaktiman. The difference is that once you were the ring you become the chillest person in the world</p>
+    </div>
+  </div>
+  <div class="hi2">
+    <img src="waiwa.jpg" alt="description" class="hlo2"> 
+    <div class="box3">
+     <h1>Model</h1>
+     <br>
+     <p>We have seen a lot of people facing the problem of creating the content. But No Worries . We have model. Who ever need the content they can take the picture of our model so that their streak never gets over </p>
+
+    </div>
+  </div>
+  <div class="hi3">
+    <img src="basnet.jpg" alt="description" class="hlo3"> 
+    <div class="box4">
+     <h1>Guffadi Basnet</h1>
+     <br>
+     <p>Whenever you are in conversation with dhadinge or syanjali then you might have lack of guff. In such case you can call him. He can give you thousands of guff idea within a minute</p>
+
+    </div>
+  </div>
+  <div class="hi4">
+    <img src="dhoj.jpg" alt="description" class="hlo4"> 
+    <div class="box5">
+     <h1>Dhoj</h1>
+     <br>
+     <p>Rocognized???   Yes he is our friend mr dhoj 2 years ago. He is the 3 day customer of gym in 1 year.... aaba third semester bata chai aago laune hoooooo</p>
+
+    </div>
+  </div>
+  <div class="hi5">
+    <img src="abhisek.jpg" alt="description" class="hlo5"> 
+    <div class="box6">
+     <h1>Abhisek</h1>
+     <br>
+     <p>One liner..... Even the best guffidi becomes the victim of his one lining capacity. Somebody even say him silent killer....................</p>
+
+    </div>
+  </div>
+  <div class="hi6">
+    <img src="rimal.jpg" alt="description" class="hlo6"> 
+    <div class="box7">
+     <h1>Pukar</h1>
+     <br>
+     <p>He is  very very good person.. He is very very nice person... He is very very sojo person..... He is the founder of very very popular blog site pukarwrites.blogspot.com</p>
+
+    </div>
+  </div>
+
+
+    
+</body>
+</html>
