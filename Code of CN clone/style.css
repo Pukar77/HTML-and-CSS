@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* background-color:#b290fc; */
+    background-color: #3A6073;
+    height: 75px;
+}
+
+.navbar a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(233, 231, 231);
+}
+
+input{
+    border-radius: 20px;
+    height: 30px;
+}
+ 
+a:hover{
+    color: rgb(253, 252, 252);
+}
+body{
+    margin: 0;
+}
+.middle{
+    background-image: url('https://www.collegenote.net/static/images/background-img.jpg?fbclid=IwAR2-FBJgUPNv2Wh3Y2WAik2hEEzKhCIp5HEVDkW7TTnCUUoVNMFll-f9Sc8');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlebox{
+    background: rgba( 19, 84, 122, 0.25 );
+    height: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.mid::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #6754e2;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+}
+
+.card{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+     */
+
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    gap: 2rem;
+    padding: 50px 45px;
+    margin-left: 35px;
+   
+    
+}
+
+.card .box{
+   
+    padding: 5px 4px;
+    background-color:white;
+    
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px hsl(0, 0%, 90%);
+}
+
+.card .box h3{
+    margin: 10px;
+}
+
+
