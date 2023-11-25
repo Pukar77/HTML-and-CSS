@@ -1,0 +1,5 @@
+Line-height=0.25em                   provides height of lines in webpage, specially used in paragraphs
+display flex;
+justify-content="center";
+justify-content="space-between";     provides gap between the flex elements
+gap;                                 same as above but works only on flex or grid property
