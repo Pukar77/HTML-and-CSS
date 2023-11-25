@@ -3,3 +3,6 @@ display flex;
 justify-content="center";
 justify-content="space-between";     provides gap between the flex elements
 gap;                                 same as above but works only on flex or grid property
+
+position: absolute;                  yo use gare paxe top, botton bhane property use garna milxa so that we can easily change the position of any objects
+position: relative;                  position relative jasma apply garya tyo parents hunxa IN OTHER WORDS, position absoulte behaves as child of an position relative
