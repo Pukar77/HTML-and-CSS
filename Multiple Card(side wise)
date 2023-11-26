@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+     <div class="card">
+       <div class="box">
+         <p>Pukar is hero</p>
+       </div>
+       
+       <div class="box">
+         <p>Pukar is hero</p>
+       </div>
+     </div>
+  </body>
+</html>
