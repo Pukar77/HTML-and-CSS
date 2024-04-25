@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    background: pink;
+
+}
+
+.photo1{
+    height: 300px;
+    width: 300px;
+
+}
+
+.photo2{
+    height: 300px;
+    width: 300px;
+}
+
+.photo3{
+
+    height: 300px;
+    width: 300px;
+}
+
+.thirdphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.name1{
+    height: 30px;
+    width: 200px;
+}
+
+.yourname{
+    display: flex;
+    gap:130px;
+}
+
+.hername{
+    display: flex;
+    gap: 20px;
+}
+
+.name2{
+    height: 30px;
+    width: 200px;
+}
+
+.btn{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    background-color: rgb(12, 244, 12);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(159, 68, 132);
+    margin-top: 40px;
+}
+
+@media(max-width:800px){
+
+    .heading{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        line-height: 100px;
+        background: pink;
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+    
+    }
+
+    .photo1{
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    .photo2{
+        height: 200px;
+        width: 200px;
+    }
+
+    .photo3{
+      
+        height: 300px;
+        width: 300px;
+       place-self: center;
+    }
+
+    .yourname{
+        display: flex;
+        gap:45px;
+        width: 300px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .hername{
+        font-size: 12px;
+
+    }
+
+    /* .just{
+        display: flex;
+        gap:45px;
+        width: 300px;
+
+    } */
+
+   
+
+   
+    
+
+    body{
+        overflow-x: hidden;
+        display: grid;
+    }
+
+}
+
+
+
+
+
+
