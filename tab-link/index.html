@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    .tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+
+}
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.tab-links::after{
+content: '';
+width: 0;
+height: 3px;
+background: #ff004f;
+position: absolute;
+left: 0;
+bottom: -8px;
+transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+
+
+}
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+
+}
+.tab-contents ul li span {
+    color: #b54769;
+    font-size: 15px;
+}
+.tab-contents {
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+
+}
+
+</style>
+
+
+
+
+<div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Sign in</p>
+                       
+                        <p class="tab-links" onclick="opentab('education')">Sign Up</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li> <span>UI<br></span>Sound Knowledge on Excel and Programming</li>
+                            <li> <span>Development<br></span>Web Development    </li>
+                            <li> <span>Other:<br></span>Still working on...</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="tab-contents" id="education">
+                    
+                        <ul>
+                            <li> <span>2021<br></span>Completed +2 at GreenField</li>
+                            <li> <span>2019<br></span>Completed SEE at GreenField </li>
+                            <li> <span>2017<br></span>ERRRRRoR!!!</li>
+                        </ul>
+                    </div>
+
+                    
+       
+<script>
+     let tablinks = document.getElementsByClassName('tab-links');
+        let tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+</script>
+
+    
+</body>
+</html>
