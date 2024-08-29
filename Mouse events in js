@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      class="photo"
+      src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    />
+
+    <p id="paragraph">This is the image of the cat</p>
+
+    <script>
+      let paragraph = document.getElementById("paragraph");
+
+      paragraph.addEventListener("mouseover", function () {
+        paragraph.innerHTML = "This is new paragraph";
+      });
+
+      paragraph.addEventListener("mouseout", function () {
+        paragraph.innerHTML = "This is the effect of mouse out";
+      });
+    </script>
+  </body>
+</html>
+
