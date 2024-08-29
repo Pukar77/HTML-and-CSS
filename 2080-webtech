@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2080</title>
+</head>
+
+<body>
+    <h2>Please fill the following form</h2>    
+    
+    <form onsubmit="return validate()" name="myform">
+
+        <div class ="input">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="Username">
+        </br>
+        </div>
+
+        <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </br>
+        </div>
+
+        <div class="input">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Please Choose</option>
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div>
+        
+        <div class="gender">
+            <label for="gender">Gender</label>
+            <input type="radio" id="Male" value="Male" name="gender">Male
+            <input type="radio" id="Female" value="Female" name="gender">Female
+            <br>
+        </div>
+
+        <div class="input">
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </div>
+
+    </form>
+
+    <script>
+        function validate(){
+            let username=  document.forms["myform"]["username"].value;
+            let password = document.forms["myform"]["password"].value;
+            let country = document.forms["myform"]["country"].value;
+            let gender = document.forms["myform"]["gender"];
+            
+
+            if(username===""){
+                alert("Username must be filled");
+            }
+            if(username.length<4){
+                alert("Username should be of at least length 4");
+            }
+            if(password===""){
+                alert("Password must be filled");
+            }
+            if(!/^[A-Za-z].*#$/.test(password)){
+                alert("The password should start with character and end with #");
+            }
+            if(country===""){
+                alert("Country must be selected");
+            }else{
+                alert("You selected" +country);
+            }
+            if(gender[0].checked===false && gender[1].checked===false){
+                alert("Gender must be selected");
+            }
+        }
+    </script> 
+</body>
+</html>
