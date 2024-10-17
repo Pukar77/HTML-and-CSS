@@ -1,0 +1,12 @@
+git branch //shows all the branches
+git checkout -b branch_name //create a new branch named branch_name
+git add .
+git commit -m "Any comment"
+git push -u origin branch_name
+
+
+
+
+git checkout main //switch between branches
+
+
