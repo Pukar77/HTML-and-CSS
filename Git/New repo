@@ -1,0 +1,5 @@
+Step 1 -> Create a new repo, donot include readme file in it.
+Step 2 -> Copy first three line 
+Step 3 -> Write command as, git add .
+Step 4 -> Copy last 4 line of code
+And this will push new repository in your github
